@@ -31,8 +31,8 @@ window.addEventListener('DOMContentLoaded', event => {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
       $(".zoom").css({
-          backgroundSize: (1 + scroll/17)  + "%",
-          top: -(scroll/0.1)  + "%",
+          backgroundSize: (1 + scroll/17.5)  + "%",
+          top: -(scroll/1)  + "%",
   
       
       });

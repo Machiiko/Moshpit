@@ -475,6 +475,127 @@ button {
 
 /* About page end */
 
+/* contact page */
+.contact-top{
+  grid-template-columns: 70% 30%;
+  display: grid;
+  line-height: 80px;
+  margin-top: 7%;
+  margin-left: 10%
+}
+
+.container-contact{
+  background-attachment: fixed;
+  width: 100%;
+  padding: 10% 0% 24.2% 0%;
+  background-image: url(./Asset/Image/Card-2.png);
+  width: 100%;
+  background-position: 10% 60%;
+  display: flex;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.container-ceo{
+  padding: 10% 0% 5% 0%;
+  text-align: center;
+}
+
+/* card ceo */
+
+.card-alip{
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.card-client {
+  background: #2B2730;
+  width: 20rem;
+  margin-right: 3%;
+  margin-left: 3%;
+  height: 400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #DDE6ED;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 8px 3px #2B2730,
+            0 0 16px 5px #2B2730,
+            0 0 20px 15px #2B2730,
+            0 0 26px 20px #2B2730;
+}
+
+.user-picture {
+  overflow: hidden;
+  object-fit: cover;
+  width: 13rem;
+  height: 13rem;
+  border: 2px solid #DDE6ED;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #3C3743;
+}
+
+.user-picture img {
+  width: 330px;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: #DDE6ED;
+}
+
+.social-media a {
+  position: relative;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  width: 2rem;
+  fill: currentColor;
+}
+
+
+/* card ceo end */
+/* contact page end */
 
 /* Footer */
 section.footer{
