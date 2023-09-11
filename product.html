@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moshpit T Shirt</title>
+   <!-- JQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/b54559f667.js" crossorigin="anonymous"></script>
+   <!-- CSS Connector -->
+   <link rel="stylesheet" href="./style.css">
+   <!-- icon -->
+   <link rel="icon" href="./Asset/Image/Logo-1.ico">
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;900&family=Roboto:wght@100;300&display=swap"
+       rel="stylesheet">
+</head>
+<body>  <section class="top-sec" id="top">
+    <nav id="mainNav" class="navbar navbar-product">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">
+                <div>&#9776;</div>
+            </span>
+        </button>
+        <img class="logo-nav" src="./Asset/Image/Logo-nobg-2.png" alt="">
+        <nav class="navbar-menu">
+            <button type="button" class="active"><a class="nav-link" href="index.html">Home</a></button>
+            <button type="button" class="active"><a class="nav-link" href="product_list.html">Product</a></button>
+            <button type="button" class="active"><a class="nav-link" href="about.html">About Us</a></button>
+            <button type="button" class="active"><a class="nav-link" href="contact.html">Contact Us</a></button>
+        </nav>
+    </nav>
+
+    <!--End Navbar-->
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "product-div">
+                <div class = "product-div-left">
+                    <div class = "img-container">
+                        <img class="product-img" src = "./Asset/Image/mockup-detail 1.png" alt = "watch">
+                    </div>
+                    <div class = "hover-container">
+                        <div><img class="product-img"src="./Asset/Image/mockup-detail 1.png"></div>
+                        <div><img class="product-img"src ="./Asset/Image/tshirt00.png"></div>
+                        <div><img class="product-img"src="./Asset/Image/mockup-detail 3.png"></div>
+                        <div><img class="product-img"src="./Asset/Image/mockup-detail 4.png"></div>
+                        <div><img class="product-img"src="./Asset/Image/mockup-detail 2.png"></div>
+                    </div>
+                </div>
+                <div class = "product-div-right">
+                    <span class = "product-name">Moshpit T Shirt InkSplash Base Gray Unisex</span>
+                    <div class = "product-rating">
+                        <span><i class="fa-solid fa-star" style="color: #FFD700;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD700;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD700;"></i></span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD700;"></i></span>
+                        <span><i class="fas fa-star-half-alt"style="color: #FFD700;"></i></span>
+                        <span>(78)</span>
+                    </div>
+                   
+                    <span class = "product-price">Rp. 97.000,00</span>
+                    <p class="product-tax">Tax included. Shipping calculated at checkout.</p>
+                    <div class="order-top">
+                    <p class="sizing">Size</p>
+                    <p class="quantity">Quantity</p>
+                    </div>
+                    
+                    <div class="product-order">
+                         <label class="radio"> <input type="radio" name="size" value="S" checked> <span>S</span> </label> <label class="radio"> <input type="radio" name="size" value="M"> <span>M</span> </label> <label class="radio"> <input type="radio" name="size" value="L"> <span>L</span> </label> <label class="radio"> <input type="radio" name="size" value="XL"> <span>XL</span> </label> <label class="radio"> <input type="radio" name="size" value="XXL"> <span>XXL</span> </label>
+                        <form id='myform' method='POST' class='quantity' action='#'>
+                            <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                            <input type='text' name='quantity' value='0' class='qty' />
+                            <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                          </form>
+                    </div>
+                   
+                    <p class = "product-description">
+                        Moshpit T Shirt right now is the best Local clothing brand in Indonesia. made by cotton that can make your day more confortable using it.
+                        <br>
+                        Moshpit Present to you our new T Shirt that name inkSplash
+                        <br>
+                        For Man Models  : Height 185-186 cm, Weight 75 kg, Use XL size
+                        <br>
+                        For Girl Models : Height 168-170 cm, Weight 55 kg, Wearing M Size
+                        <br>
+                        Material : Cotton 
+                        <br>
+                        Tolerance for each size is 1-1cm
+                        <br>
+                        ---------------------------------------------------------------------------</p>
+                    <div class = "btn-groups">
+                        <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i></button>
+                        <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section class="footer">
+    <div class="header">
+        <h1 class="child">Subscribe to our emails</h1>
+        <p class="child">Be the first to know about new collections and exclusive offers.</p>
+        <button class="child link" href="#">moshpit.clothing@gmail.com</button>
+    </div>
+
+    <div class="contain">
+        <div class="col">
+            <img class="footer-logo" src="./Asset/Image/Logo-nobg-2sl.png" alt="">
+        </div>
+        <div class="col">
+            <h1>Products</h1>
+            <ul>
+                <li>T Shirt</li>
+                <li>Hoodie</li>
+                <li>Tote Bag</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Company</h1>
+            <ul>
+                <li>About Us</li>
+                <li>Creator</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Contact Us</h1>
+            <ul>
+                <li>+62 812-1082-4480</li>
+            </ul>
+        </div>
+        <div class="col social">
+            <h1>Social</h1>
+            <ul>
+                <i class="footer-icon fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+                <i class="footer-icon fa-brands fa-instagram" style="color: #fcfcfc;"></i>
+                <i class="footer-icon fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+                <i class="footer-icon fa-brands fa-youtube" style="color: #ffffff;"></i>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+    <p class="copyright">© 2023 Moshpit</p>
+</section>
+
+   
+
+    <script src = "./src/index.js"></script>
+</body>
+</html>
